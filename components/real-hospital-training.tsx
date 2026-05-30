@@ -19,22 +19,22 @@ export function RealHospitalTraining() {
     {
       title: "Physiotherapy Bedside Care",
       desc: "Work beside orthopedic surgeons assisting patient biomechanics post-surgery inside functional ICUs and recovery wards.",
-      img: "https://picsum.photos/seed/physioseed/400/250"
+      img: "/Physiotherapy.webp"
     },
     {
       title: "MRI Diagnostic Labs",
       desc: "Operate high-end 3T resonance diagnostic scanning suites. Calibrate pulse sequences, manage patient orientation, and prepare contrast studies.",
-      img: "https://picsum.photos/seed/mriseed/400/250"
+      img: "/Diagnostic.webp"
     },
     {
       title: "Active Radiology Depts",
       desc: "Gain expertise in emergency trauma rooms. Read real CT scans, digital fluoroscopy, x-ray shielding, and tele-radiology.",
-      img: "https://picsum.photos/seed/radiologyseed/400/250"
+      img: "/Radiology.webp"
     },
     {
       title: "Critical Patient Care",
       desc: "Learn healthcare safety. Control infection protocols, understand patient dignity, and manage medical emergencies elegantly.",
-      img: "https://picsum.photos/seed/careseed/400/250"
+      img: "/Patient.webp"
     }
   ];
 
@@ -75,9 +75,7 @@ export function RealHospitalTraining() {
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   referrerPolicy="no-referrer"
                 />
-                <div className="absolute top-3 right-3 bg-black/70 px-2 py-0.5 rounded text-[9px] uppercase tracking-wider font-extrabold text-[#fffc4d] border border-[#fffc4d]/35">
-                  Live Postings
-                </div>
+
               </div>
               <div className="p-5 space-y-2">
                 <h3 className="font-display text-base font-bold text-white transition-colors group-hover:text-[#fffc4d]">
@@ -92,7 +90,7 @@ export function RealHospitalTraining() {
         </div>
 
         {/* Hospital Partner Grid */}
-        <div id="hospital-brand-grid" className="pt-8 border-t border-white/10">
+        {/* <div id="hospital-brand-grid" className="pt-8 border-t border-white/10">
           <p className="text-center text-xs font-bold uppercase tracking-widest text-zinc-400 mb-8 flex items-center justify-center gap-2">
             <Heart className="h-4 w-4 text-red-500 fill-red-500 animate-pulse" />
             NIMT Clinical Posting & Internship Networks
@@ -115,7 +113,7 @@ export function RealHospitalTraining() {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
       </div>
     </section>

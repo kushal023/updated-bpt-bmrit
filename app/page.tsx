@@ -122,46 +122,32 @@ export default function HomePage() {
           
           {/* Logo & Description */}
           <div className="md:col-span-4 space-y-6">
-            <div className="flex flex-col select-none relative max-w-xs font-sans">
-              <div className="flex items-baseline gap-1">
-                <div className="relative">
-                  {/* Small blue triangle above letter 'I' */}
-                  <span className="text-4xl md:text-5xl font-black tracking-tight text-white leading-none font-sans relative">
-                    N
-                    <span className="relative inline-block">
-                      I
-                      <span className="absolute -top-3.5 left-1/2 -translate-x-1/2 text-[#00bfff] text-[10px] md:text-xs">▲</span>
-                    </span>
-                    MT
-                  </span>
-                </div>
-                <span className="text-4xl md:text-5xl font-black text-[#00bfff] leading-none">/</span>
-              </div>
-              <span className="text-2xl font-extrabold tracking-wider text-white leading-none mt-2">EDUCATIONAL</span>
-              <span className="text-2xl font-extrabold tracking-wider text-white leading-none mt-1">INSTITUTIONS</span>
-            </div>
-
+     <div className="flex items-center">
+  <img
+    src="/nimt-logo.png"
+    alt="NIMT Educational Institutions"
+    className="h-20 lg:h-24 w-auto object-contain"
+  />
+</div>
             <p className="text-sm font-light leading-relaxed text-zinc-400">
               NIMT Institute of Allied Health Sciences is a premiere unit established under the NIMT Educational Institutions umbrella, dedicated to pioneering healthcare clinical education, physiotherapy care, and advanced radiological diagnostics training.
             </p>
 
             {/* Social Media Links */}
             <div className="flex items-center gap-3 pt-2">
-              <a href="https://facebook.com/nimtgroup" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center text-zinc-400 hover:text-[#00bfff] hover:border-[#00bfff] hover:bg-zinc-800/50 transition-all duration-300" aria-label="Facebook">
+              <a href="https://www.facebook.com/nimtedu" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center text-zinc-400 hover:text-[#00bfff] hover:border-[#00bfff] hover:bg-zinc-800/50 transition-all duration-300" aria-label="Facebook">
                 <Facebook className="w-4 h-4" />
               </a>
-              <a href="https://instagram.com/nimt_india_official" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center text-zinc-400 hover:text-[#00bfff] hover:border-[#00bfff] hover:bg-zinc-800/50 transition-all duration-300" aria-label="Instagram">
+              <a href="https://www.instagram.com/nimtedu" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center text-zinc-400 hover:text-[#00bfff] hover:border-[#00bfff] hover:bg-zinc-800/50 transition-all duration-300" aria-label="Instagram">
                 <Instagram className="w-4 h-4" />
               </a>
-              <a href="https://linkedin.com/school/nimt-group-of-institutions/" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center text-zinc-400 hover:text-[#00bfff] hover:border-[#00bfff] hover:bg-zinc-800/50 transition-all duration-300" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/school/nimt" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center text-zinc-400 hover:text-[#00bfff] hover:border-[#00bfff] hover:bg-zinc-800/50 transition-all duration-300" aria-label="LinkedIn">
                 <Linkedin className="w-4 h-4" />
               </a>
-              <a href="https://youtube.com/user/nimtgroup" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center text-zinc-400 hover:text-[#00bfff] hover:border-[#00bfff] hover:bg-zinc-800/50 transition-all duration-300" aria-label="YouTube">
+              <a href="https://www.youtube.com/@nimtedu" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center text-zinc-400 hover:text-[#00bfff] hover:border-[#00bfff] hover:bg-zinc-800/50 transition-all duration-300" aria-label="YouTube">
                 <Youtube className="w-4 h-4" />
               </a>
-              <a href="https://twitter.com/nimtgroup" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center text-zinc-400 hover:text-[#00bfff] hover:border-[#00bfff] hover:bg-zinc-800/50 transition-all duration-300" aria-label="Twitter">
-                <Twitter className="w-4 h-4" />
-              </a>
+  
             </div>
           </div>
 
@@ -229,10 +215,6 @@ export default function HomePage() {
             &copy; 2026 NIMT Group of Institutions. All Legal Rights Reserved. Developed to ABVMU Guidelines.
           </p>
           <div className="flex items-center gap-4 text-zinc-500 font-light">
-            <a href="#" className="hover:text-[#00bfff] transition-colors">Privacy Terms</a>
-            <span className="text-zinc-800">•</span>
-            <a href="#" className="hover:text-[#00bfff] transition-colors">Anti-Ragging Act</a>
-            <span className="text-zinc-800">•</span>
             <a href="#" className="hover:text-[#00bfff] transition-colors">Contact Us</a>
           </div>
         </div>

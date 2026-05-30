@@ -54,15 +54,13 @@ export function StickyNav({ onApplyClick, onScholarshipClick }: NavigationProps)
     >
       <div className="max-w-7xl mx-auto px-4 md:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
         {/* Brand details */}
-        <div className="flex items-center gap-3">
-          <div className="bg-white text-primary p-2 rounded-lg font-black text-xl tracking-tighter shadow-sm flex items-center justify-center">
-            NIMT
-          </div>
-          <div className="flex flex-col">
-            <span className="font-display text-lg font-extrabold tracking-tight">NIMT Greater Noida</span>
-            <span className="text-[10px] uppercase tracking-widest text-[#fffc4d] font-semibold">Allied Health Sciences</span>
-          </div>
-        </div>
+  <div className="flex items-center">
+  <img
+    src="/nimt-logo.png"
+    alt="NIMT Educational Institutions"
+    className="h-20 lg:h-24 w-auto object-contain"
+  />
+</div>
 
         {/* Quick info bar highlights */}
         <div className="hidden lg:flex items-center gap-6 text-xs text-white/90">

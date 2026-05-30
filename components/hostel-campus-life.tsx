@@ -9,37 +9,37 @@ export function HostelCampusLife() {
       title: "Secure On-Campus Hostel",
       desc: "Separate single & double sharing secure layouts for girls & boys. Full biometric access control systems & active round-the-clock wardens.",
       icon: Home,
-      img: "https://picsum.photos/seed/hosteldorm/500/350"
+      img: "/hostel.png"
     },
     {
       title: "Extensive Medical Library",
       desc: "Over 15,000+ medical journals, advanced digital physiology directories, radiology case logs, and comfortable quiet workspaces.",
       icon: BookOpen,
-      img: "https://picsum.photos/seed/libraryroom/500/350"
+      img: "/library.png"
     },
     {
       title: "Modern Specialized Labs",
       desc: "Anatomy visualization suites, biomechanical bio-feedback stations, and clinical diagnostic simulation devices.",
       icon: Activity,
-      img: "https://picsum.photos/seed/medlab/500/350"
+      img: "/Labs.webp"
     },
     {
       title: "Dynamic Sports Center",
       desc: "Spacious athletic tracks, outdoor football pitches, indoor badminton halls, and specialized sports physiotherapy rehab lounges.",
       icon: Flame,
-      img: "https://picsum.photos/seed/sportsact/500/350"
+      img: "/sports.png"
     },
     {
       title: "Student Core Activities",
       desc: "Active clinical diagnostic symposiums, academic quizzes, medical visual contests, and direct community health camp drives.",
       icon: Users,
-      img: "https://picsum.photos/seed/students/500/350"
+      img: "/Activities.webp"
     },
     {
       title: "Hygienic Dining & Cafeteria",
       desc: "Fresh nutritious multi-cuisine meal plans prepared daily by certified kitchen staff under strict health supervision protocols.",
       icon: Coffee,
-      img: "https://picsum.photos/seed/cafe/500/350"
+      img: "/Hygienic.png"
     }
   ];
 
@@ -92,10 +92,6 @@ export function HostelCampusLife() {
                   <p className="text-xs text-gray-600 leading-relaxed font-light">
                     {item.desc}
                   </p>
-                </div>
-
-                <div className="pt-4 border-t border-neutral-100/50 mt-4 text-[10px] uppercase font-bold text-gray-400">
-                  NIMT Campus Hub
                 </div>
               </div>
             );

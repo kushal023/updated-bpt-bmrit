@@ -142,28 +142,7 @@ export function PlacementsSection() {
           </div>
         </div>
 
-        {/* Premium recruiter logo ticker mockup */}
-        <div className="pt-8 border-t border-white/10">
-          <p className="text-center text-xs font-bold uppercase tracking-widest text-zinc-400 mb-8">
-            Graduates Employed at India&apos;s Foremost Healthcare Conglomerates
-          </p>
-
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-            {recruiters.map((rec) => (
-              <div
-                key={rec.name}
-                className="p-4 bg-zinc-900 border border-white/5 hover:border-[#08a7e6]/30 text-center rounded-xl transition-all"
-              >
-                <span className="font-display font-extrabold text-white/90 text-sm block">
-                  {rec.name}
-                </span>
-                <span className="text-[9px] text-zinc-400 uppercase tracking-widest block mt-1">
-                  {rec.highlight}
-                </span>
-              </div>
-            ))}
-          </div>
-        </div>
+    
 
       </div>
     </section>
