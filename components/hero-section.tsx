@@ -118,7 +118,7 @@ export function HeroSection({ onApplyClick, onEnquiryClick }: HeroSectionProps) 
                 {/* Panel 1 */}
                 <div id="panel-physio" className="group relative h-48 rounded-xl overflow-hidden shadow-lg border border-white/10">
                   <img
-                    src="https://picsum.photos/seed/physio/400/300"
+                    src="/bpt.png"
                     alt="Physiotherapy student treating patient"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                     referrerPolicy="no-referrer"
@@ -132,7 +132,7 @@ export function HeroSection({ onApplyClick, onEnquiryClick }: HeroSectionProps) 
                 {/* Panel 2 */}
                 <div id="panel-radiology" className="group relative h-48 rounded-xl overflow-hidden shadow-lg border border-white/10">
                   <img
-                    src="https://picsum.photos/seed/radiology/400/300"
+                    src="/mri.png"
                     alt="Radiology student using MRI/CT equipment"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                     referrerPolicy="no-referrer"
@@ -147,7 +147,7 @@ export function HeroSection({ onApplyClick, onEnquiryClick }: HeroSectionProps) 
               {/* Patient Care Banner Row */}
               <div id="panel-hosp" className="relative h-28 rounded-xl overflow-hidden shadow-lg border border-white/10">
                 <img
-                  src="https://picsum.photos/seed/clinical/800/300"
+                  src="/hospital-exposure.webp"
                   alt="Modern Hospital Training"
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
